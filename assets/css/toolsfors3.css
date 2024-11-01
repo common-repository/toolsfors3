@@ -1,0 +1,293 @@
+
+#toolsfors3_tansferring_status{
+  margin-left: 65px;
+  margin-top: 2px;
+ /* padding-bottom: 20px; */
+}
+
+
+#toolsfors3_status_label{
+ display:none; 
+}
+
+.toolsfors3_log{
+   display:none; 
+}
+
+#toolsfors3_log{
+  /*
+  width:50%;
+  background-color:#eee;
+  overflow:hidden;
+  */
+  height:175px;
+  max-height:175px;
+  border:1px solid #ccc;
+  overflow-y: auto;
+  /* display:none; */
+}
+
+
+.toolsfors3_modal_row{
+    /* min-width: 600px; 
+    display:inline-block;
+    vertical-align:top;
+    border: 0px solid gray;
+    /* background: yellow;  */ 
+    border-radius: 0px;	
+    padding: 10px;
+    margin-top:0px;
+	
+}
+
+.toolsfors3_transfer_row{
+  min-width: 600px; 
+  display:inline-block;
+  vertical-align:top;
+  border: 1px solid gray;
+  background: #ededed;  
+  border-radius: 5px;	
+  padding: 10px;
+
+}
+
+#select_bucket{
+
+  background:white !important;;
+
+}
+
+.btn-outline-success{
+
+  background:white !important; 
+}
+
+
+.toast-container {
+  z-index: 99999 !important;
+  background:transparent !important;
+  opacity: 1 !important;
+}
+.toast-body {
+  background:white !important;
+  opacity: 1 !important;
+}
+#toolsfors3_form_bucket{
+ margin-bottom: 40px;
+}
+.toolsfors3_main_btn{
+   min-width: 200px;
+   height: 50px;
+}
+#action-btns{
+ max-width: 800px;
+max-height: 40px;
+float: right;
+margin-top: -50px;
+right: 30px;
+position: absolute;
+}
+.dropzone {
+    min-height: 270px;
+}
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
+/*
+#loading, #wait, #creating, #deleting{
+    width: 400px;
+    height: 100px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background:#0d6efd;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display:none;
+}
+*/
+#loading, #wait, #creating, #deleting {
+  width: 400px;
+  height: 120px;
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: #0d6efd;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+#loading, #loading{
+   display:block;
+}
+.spinner-border{
+   margin-bottom: 10px;
+}
+.spinner-text {
+    margin-top: -10px;
+}
+#select_bucket {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem 2rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+        .center {
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+        .modal-body {
+            overflow-x: auto;
+        }
+        th {
+            cursor: pointer;
+        }
+        table.table .sort:after {
+            font-family: bootstrap-icons;
+            font-size: 0.75em;
+            color: #333;
+            font-weight: lighter;
+            content: "";
+            padding-right: 0.7em;
+        }
+        table.table .sort.desc:after {
+            content: " \f235";
+        }
+        table.table .sort.asc:after {
+            content: " \f229";
+        }
+        .center {
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            display: block;
+        }
+        .form-control {
+            width: inherit;
+        }
+        .CodeMirror-lint-tooltip { 
+            z-index: 1070;
+        }
+.toolsfors3_alert{
+  background: #ff0217;
+color: #fff;
+padding: 10px 20px 10px 20px;
+border: 0;
+font-size: 15px;
+margin: 20px auto;
+}
+.toolsfors3_success{
+  background: #118b01;
+color: #fff;
+padding: 10px 20px 10px 20px;
+border: 0;
+font-size: 15px;
+margin: 20px auto;
+}
+#toolsfors3-containerright-dashboard h2 {
+  border-bottom: 5px solid #ccc;
+  padding-bottom: 5px;
+  text-shadow: 5px 5px 10px #888;
+}
+#toolsfors3-containerright-dashboard
+{
+float: right;
+/* background: lightgreen; */
+/* width: 300px; */
+/* max-width: 29%; */
+margin-top: 17px; 
+padding: 0px; 
+}
+#toolsfors3-containerright-dashboard ul { 
+  /* max-width: 300px; */
+  padding: 5px 10px 15px 30px;
+  margin-left: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  list-style: disc;
+  -moz-box-shadow: 5px 5px 15px #aaa;
+  -webkit-box-shadow: 5px 5px 15px #aaa;
+  box-shadow: 5px 5px 15px #aaa; 
+}
+#toolsfors3-containerright-dashboard img { 
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+#toolsfors3-dashboard-left{
+  float:left;
+  max-width: 74%;
+  min-width: 74%;
+}
+#toolsfors3-dashboard-right{
+  float:right;
+  max-width: 25%;
+  /* background: yellow; */
+  margin-right: 1%;
+}
+#toolsfors3-logo{
+/* max-width: 200px; */
+margin-top: 15px;
+margin-left: 5px;
+}
+.wrap-toolsfors3  {
+  background-color: #fff;
+  max-width: 99%;
+  margin: 0 auto;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom:30px;
+}
+.wrap-toolsfors3   h2.title {
+    padding: 15px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+}
+.wrap-toolsfors3   p.description {
+    /* padding: 10px; */
+    font-size: 18px;
+    color: #0554e7;
+}
+.toolsfors3  -form{
+padding: 0% 0 0% 5%;
+}
+.toolsfors3  -submit{
+  background: #0073aa;
+color: #fff;
+padding: 10px 20px 10px 20px;
+border: 0;
+font-size: 15px;
+margin: 0 auto;
+}
+/* Tablets and iPads */
+@media (max-width: 767px) {
+  #toolsfors3-containerright-dashboard {
+      display: none !important;
+  }
+  #toolsfors3-dashboard-left{
+    float:left;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
